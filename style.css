@@ -1,0 +1,81 @@
+/* Write your CSS below. Try to make it responsive (i.e. no horizontal scroll) */
+*{
+    margin: 0;
+    padding:0;
+}
+.header{
+    color: red;
+    height: 50px;
+}
+.figure img{
+    width: 39px;
+    height: 31px;
+    padding-left: 12px;
+}
+
+.figure{
+    padding-left: 18px;
+    display: inline;
+    float: left;
+}
+.icon{
+    display: inline;
+    float: right;
+}
+i.fas.fa-bars.fa-2x {
+    padding-right: 25px;
+    padding-top: 7px;
+    color: black;
+}
+.mons-image{
+    background-color: grey;
+    width: 406px;
+    margin-left: 50px;
+    background-color: grey;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.mons-image img{
+    width: 406px;
+    padding: left 0;
+}
+.main{
+    width: 406px;
+
+    display: flex;
+    flex-direction: row;
+}
+.mon1 li{
+    list-style-type: none;
+}
+.mon1 li img{
+    width: 140px;
+    height: 50px;
+}
+.monster {
+    padding-left: 40px;
+}
+.mon2 {
+    padding-top: 17px;
+}
+.left {
+    padding-left: 233px;
+}
+.content1{
+    height: 100px;
+}
+.content1 {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 45px;
+}
+.left button{
+    background-color: red;
+    border: none;
+    width: 150px;
+    height: 50px;
+}
+.content1 span{
+    font-size: 20px;
+}
